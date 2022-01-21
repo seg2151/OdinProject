@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ballsacks</title>
+    <<link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Welcome to my site!</h1>
+    <!-- <a href="newbook.html"><button">Click to Add Book</button></a> -->
+    <div id="book-list">
+    </div>
+    <h1>Add new book:</h1>
+    <form id="new-book" onsubmit="addBookToLibrary()">
+      <label for="book-title">Book Title:</label><br>
+      <input type="text" id="book-title" name="book-title" value="Lord of my Balls"><br>
+      <label for="author">Author:</label><br>
+      <input type="text" id="author" name="author" value="Seb"><br><br>
+      <label for="author">Number of Pages:</label><br>
+      <input type="number" id="num-pages" name="num-pages" value="500"><br><br>
+      <label for="is-read">Did you read this book?</label><br>
+      <input type="radio" id="html" name="fav_language" value="yes">
+      <label for="html">Yes</label><br>
+      <input type="radio" id="css" name="fav_language" value="no">
+      <label for="css">No</label><br>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+  <script src="script.js">
+</script>
+</html>
